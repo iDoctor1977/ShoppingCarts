@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ShoppingCarts.Shared\ShoppingCarts.Shared.Core\ShoppingCarts.Shared.Core.csproj" />
+    <ProjectReference Include="..\ShoppingCarts.Console.Common\ShoppingCarts.Console.Common.csproj" />
+  </ItemGroup>
+
+</Project>
